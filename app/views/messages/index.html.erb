@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+<h1>Messages</h1>
+<div id="messages">
+  <%= render @messages %>
+</div>
+<%= render 'messages/form' %>
+<%= link_to 'New Message', new_message_path %>
